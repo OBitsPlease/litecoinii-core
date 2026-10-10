@@ -20,7 +20,7 @@ complete.
   `C9442197D120F06DFDF1A29CAB81AFF507157809055F26B4300ED8C3AF3027C6`
 - Recovered version: LitecoinII Core v0.21.6.0
 - Initial recovered-source commit:
-  `6ebe9f9b4454c13841aeefc4db506fbd39833932`
+  `1c874c750ca024b4143065c87b5186206832fa92`
 - License: MIT; existing Bitcoin Core, Litecoin Core, and LitecoinII
   attribution is retained in `COPYING`.
 
@@ -45,7 +45,7 @@ Before publishing new binaries as canonical:
 
 ### 2026-10-10: Initial Linux build and offline checks
 
-Source commit: `5af6bb7`
+Source commit: `357cdae`
 
 Environment:
 
@@ -90,4 +90,3 @@ binaries as canonical releases.
   commands used.
 - Do not commit wallets, private keys, seed phrases, RPC credentials, node
   cookies, logs containing secrets, or live blockchain data.
-
