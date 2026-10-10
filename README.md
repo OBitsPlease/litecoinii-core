@@ -1,6 +1,11 @@
 LitecoinII Core
 ===============
 
+> **Recovery status:** This tree was recovered from a source archive after the
+> original repository became unavailable. It is not yet verified as canonical.
+> See [RECOVERY-PROVENANCE.md](RECOVERY-PROVENANCE.md) before building,
+> publishing, or distributing binaries.
+
 LitecoinII (LC2) Core integration/staging tree.
 
 https://github.com/litecoinII-project/litecoinII
