@@ -3,9 +3,11 @@
 ## Recovery Status
 
 This repository is under active recovery by
-[@OBitsPlease](https://github.com/OBitsPlease). Previous LitecoinII contact
-addresses and signing identities are not assumed to remain controlled by the
-current maintainer.
+[@OBitsPlease](https://github.com/OBitsPlease), its sole authorized
+maintainer. The former developer is not involved in this recovery effort.
+Previous LitecoinII contact addresses, accounts, and signing identities are
+not authorized for current project communication or releases unless
+OBitsPlease explicitly verifies them through this repository.
 
 ## Reporting a Vulnerability
 

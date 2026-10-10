@@ -5,15 +5,33 @@ Updated: 2026-10-10
 ## Active maintainer
 
 LitecoinII (LC2) has an active recovery and maintenance effort led through the
-GitHub account [@OBitsPlease](https://github.com/OBitsPlease).
+GitHub account [@OBitsPlease](https://github.com/OBitsPlease). OBitsPlease is
+the current project maintainer and the only maintainer authorized by this
+repository.
 
 The previous source repository became unavailable. This repository preserves
 recovered LC2 Core v0.21.6.0 source while its provenance, tests, live-chain
 compatibility, and release process are independently re-established.
 
+## Former developer status
+
+The former LitecoinII developer is no longer involved in LC2 development,
+maintenance, governance, releases, fundraising, or decisions made through this
+repository. The former developer does not speak for this recovery effort and
+is not authorized to request funds, publish releases, issue operator guidance,
+or represent the project on its behalf.
+
+Previous project accounts, contact addresses, websites, signing identities,
+and announcements must not be treated as current or authorized unless
+OBitsPlease explicitly verifies them through this repository. The current
+maintainer does not plan to restore the former developer to a project role.
+
 ## Guidance for pools and exchanges
 
 - LC2 development and maintenance are active.
+- Treat OBitsPlease as the current point of contact for this recovery effort.
+- Do not rely on instructions or funding requests attributed to the former
+  developer.
 - No consensus change, chain restart, swap, or address-format change is
   announced by this recovery repository.
 - Existing operators should continue using their currently validated LC2

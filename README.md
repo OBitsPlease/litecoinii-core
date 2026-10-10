@@ -7,9 +7,11 @@ LitecoinII Core
 > publishing, or distributing binaries.
 
 > **Active maintenance:** The LC2 recovery and maintenance effort is active as
-> of October 2026 under GitHub maintainer
-> [@OBitsPlease](https://github.com/OBitsPlease). Current status and guidance
-> for pools and exchanges are in [RECOVERY-STATUS.md](RECOVERY-STATUS.md).
+> of October 2026. [@OBitsPlease](https://github.com/OBitsPlease) is the
+> current and sole authorized maintainer of this repository. The former
+> developer is not involved and is not authorized to represent this recovery
+> effort. Current status and guidance for pools and exchanges are in
+> [RECOVERY-STATUS.md](RECOVERY-STATUS.md).
 
 LitecoinII (LC2) Core integration/staging tree.
 
