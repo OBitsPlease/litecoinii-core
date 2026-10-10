@@ -6,9 +6,17 @@ LitecoinII Core
 > See [RECOVERY-PROVENANCE.md](RECOVERY-PROVENANCE.md) before building,
 > publishing, or distributing binaries.
 
+> **Active maintenance:** The LC2 recovery and maintenance effort is active as
+> of October 2026 under GitHub maintainer
+> [@OBitsPlease](https://github.com/OBitsPlease). Current status and guidance
+> for pools and exchanges are in [RECOVERY-STATUS.md](RECOVERY-STATUS.md).
+
 LitecoinII (LC2) Core integration/staging tree.
 
-https://github.com/litecoinII-project/litecoinII
+Active recovery repository:
+https://github.com/OBitsPlease/litecoinii-core
+
+Community: https://discord.gg/v4YGTDt65
 
 What is LitecoinII?
 -------------------

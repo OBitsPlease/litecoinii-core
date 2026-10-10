@@ -1,15 +1,21 @@
 # Security Policy
 
+## Recovery Status
+
+This repository is under active recovery by
+[@OBitsPlease](https://github.com/OBitsPlease). Previous LitecoinII contact
+addresses and signing identities are not assumed to remain controlled by the
+current maintainer.
+
 ## Reporting a Vulnerability
 
-To report security issues send an email to contact@litecoin.org (not for support). For LitecoinII, send an email to dev@litecoinII.org.
+Do not disclose suspected vulnerabilities in a public issue.
 
-The following keys may be used to communicate sensitive information to developers:
+Use GitHub's private vulnerability reporting for this repository when it is
+enabled. If that feature is unavailable, contact the maintainer through
+[the LC2 community Discord](https://discord.gg/v4YGTDt65) to request a private
+reporting channel without posting vulnerability details.
 
-| Name | Fingerprint |
-|------|-------------|
-| Charlie Lee | 1A2511E978239E491A096D0A828AC1F94EF26053 |
-| David Burkett | D35621D53A1CC6A3456758D03620E9D387E55666 |
-| Loshan T | C0921846FED0BF4CF28BE1D73B2A6315CD51A673 |
-
-You can import a key by running the following command with that individual’s fingerprint: `gpg --recv-keys "<fingerprint>"` Ensure that you put quotes around fingerprints containing spaces.
+No current LC2 release-signing key is published yet. A new signing identity
+and custody policy must be established before verified recovery releases are
+published.

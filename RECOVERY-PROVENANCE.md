@@ -41,6 +41,45 @@ Before publishing new binaries as canonical:
 8. Publish signed checksums and release notes through an approved signing
    identity.
 
+## Verification record
+
+### 2026-10-10: Initial Linux build and offline checks
+
+Source commit: `5af6bb7`
+
+Environment:
+
+- WSL 2
+- Ubuntu 22.04.5 LTS
+- GCC/G++ 11.4.0
+- Wallet and GUI disabled because the environment does not provide the portable
+  Berkeley DB 4.8 dependency
+
+Results:
+
+- `./autogen.sh`: passed
+- `./configure --without-gui --disable-wallet --disable-bench --disable-fuzz-binary`:
+  passed
+- `make -j$(nproc)`: passed
+- Consensus-focused Boost suites `pow_tests`, `validation_tests`, and
+  `scrypt_tests`: 17 test cases passed with no errors
+- `feature_config_args.py`: passed against the rebuilt daemon in regtest mode
+- Offline mainnet startup with networking disabled: passed; `getblockhash 0`
+  returned
+  `fefb8200c7da35576d1d54ede22de1e69f5d8a5ee598b7535548d9632b367e3b`,
+  matching `chainparams.cpp`
+
+Known failure:
+
+- Full `make check` stops in
+  `blockfilter_index_tests/blockfilter_index_initial_sync` because
+  `CreateNewBlock` creates a transaction rejected as `bad-txns-vin-empty`.
+  This must be investigated before the unit-test verification gate can pass.
+
+These results do not cover wallet builds, the complete unit suite, live-chain
+compatibility, or reproducibility. They do not authorize publication of new
+binaries as canonical releases.
+
 ## Change policy during recovery
 
 - Keep consensus recovery separate from miner fee and operations changes.
